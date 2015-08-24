@@ -24,11 +24,10 @@ Not much, but simply features that I use myself...
 * `gira -l`  #List open issues 
 * `gira -ls` #List open issues in open sprint
 * `gira -lsd` #Include the description of the issue;
-
-
 * `gira -g` #Use the jira project name to find an issueKey inside the current branch
 * `gira -gd` #Include the description of the issue;
 
+## Release History
 *  _0.1.0 Initial Release_
 
 ## License
