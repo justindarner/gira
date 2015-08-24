@@ -3,8 +3,15 @@
 This is a command line application for Jira (atlassian cloud) with an small Git integration
 
 ## How do I install it?
-npm install -g gira
-You can start it with `gira`
+* npm install -g gira
+* You can start it with `gira`
+
+* On first run, you will be prompted for:
+  * username
+  * password
+  * host
+  * project name
+* These items are stored in ~/.gira.json
 
 ## How much is working so far?
 Not much, but simply features that I use myself...
