@@ -1,15 +1,12 @@
 {
   "name": "gira",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command line for Jira Cloud",
   "main": "./lib/cli.js",
-  "bin" :{
-    "gira" : "./lib/cli.js"
+  "bin": {
+    "gira": "./lib/cli.js"
   },
-  "author" : {
-    "name" : "Justin Darner",
-    "email": "justin.darner@gmail.com"
-  },
+  "author": "Justin Darner",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +14,6 @@
     "type": "git",
     "url": "https://github.com/justindarner/gira.git"
   },
-  "author": "Justin Darner",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/justindarner/gira/issues"
@@ -29,6 +25,7 @@
     "jira": "^0.9.2",
     "lodash": "^3.10.1",
     "prompt": "^0.2.14",
+    "try-thread-sleep": "^1.0.0",
     "wordwrap": "^1.0.0",
     "yargs": "^3.21.0"
   }
